@@ -1,0 +1,7 @@
+version: "3"
+services:
+  app:
+    image: vaccine_status
+    build: .
+    env_file:
+      - .env
